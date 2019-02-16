@@ -1,0 +1,16 @@
+{
+  "name": "express-starter-kit",
+  "script": "./src/bin/www",
+  "watch": false,
+  "instances": 0,
+  "exec_mode": "cluster",
+  "env": {
+    "DEBUG": "express-starter-kit:*",
+    "NODE_ENV": "development",
+    "PORT": "3000"
+  },
+  "env_production": {
+    "NODE_ENV": "production",
+    "PORT": "8080"
+  }
+}
